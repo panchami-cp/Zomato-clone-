@@ -1,0 +1,917 @@
+body{
+    margin: 0;
+}
+.head{
+    width: 100%;
+    height: 419.6px;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   
+} 
+.header{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+}
+.header_content{
+    width: 1100px;
+    height: inherit;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    float: left;
+    color: #ffff;
+    margin-right: 32px;
+}
+.app{
+    width: 12%;
+    height: inherit;    
+   
+   
+}
+.app p{
+    font-family:  Helvetica ;
+    color: #ffff;
+    margin-top: 23px;
+}
+.navigation{
+    
+    width: 53%;
+    height: inherit;
+    list-style-type: none;
+    
+    float: left;
+}
+.title_logo{
+    width: inherit;
+    height: 222px;
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+}
+.title_logo_container{
+    width: 776px;
+    height: inherit;
+    
+}
+.logo_block{
+    width: inherit;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+.tag_line_block{
+    width: inherit;
+    height: 78px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.search_block{
+    width: inherit;
+    height: 84px;
+    
+}
+.logo{
+    width: 300px;
+    height: inherit;
+   
+   
+    background: transparent;
+    
+}
+#field{
+    list-style-type:none;
+    font-size: 20px;
+    
+    color: rgb(255, 255, 255);
+    font-family:  Helvetica ;
+}
+#logo{
+    height: 60px;
+    width: 290px;
+}
+.tag_line h1{
+    margin: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 34px;
+   
+    
+}
+.search{
+    width: 776px;
+    height: 54px;
+    background: white;
+    border: 1px,solid, white;
+    border-radius: 9px;
+    margin-top: 28px;
+    display: flex;
+}
+.search_location{
+    width: 243px;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.search_restaurant{
+    width: 530px;
+    height: inherit;
+    
+    display: flex
+}
+.lens{
+    width: 52px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#lens{
+    width: 15px;
+    height: 15px;
+}
+.restaurant_input{
+    width: 478px;
+    height: inherit;
+    display: flex;
+    
+}
+#restaurant_input{
+    border: 0;
+}
+.location_icon{
+    width: 30px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#location_icon{
+    width: 16px;
+    height: 20px;
+    margin-left: 16px;
+}
+.location_name{
+    width: 176px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.location_name input{
+    border: none;
+}
+.down_arrow{
+    width: 20px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    
+}
+.triangle_down{
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid rgba(0, 0, 0, 0.456);
+}
+
+.body{
+    width: 100%;
+    height: auto;
+}
+.body_one{
+
+    width: 1100px;
+    height: 1231px;
+    
+    margin: auto;
+    margin-top: 38px;
+}
+.two_images{
+    width: 1100px;
+    height: 240px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    width: 540px;
+    height: inherit;
+    
+    
+    
+}
+.order_online{
+    width: 540px;
+    height: 240px;
+    background-image: url("https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+
+}
+
+.dining{
+    width: 540px;
+    height: 240px;
+    background-image: url("https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+
+}
+.text_container{
+    width: 540px;
+    height: 83px;
+    background: white;
+    border: .5px solid rgba(0, 0, 0, 0.277);
+    border-top: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.hover_size:hover{
+    size: 550px;
+}
+.text_div{
+    width: 500px;
+    height: 83px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+.text_div h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.text_div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.516);
+    margin-top: 7px;
+
+}
+.text{
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 21px;
+    font-weight: 100;
+}
+.collections{
+    width: 1100px;
+    height: 432px;
+    margin-bottom: 100px;
+
+}
+.collections_text_div{
+    width: 1100px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.text_div_1{
+    width: 875px;
+    height: inherit;
+}
+.text_div_2{
+    width: 205px;
+    height: inherit;
+    display: flex;
+}
+.text_div_2 h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(217, 78, 78);
+    font-weight: lighter;
+    position: relative;
+    top:15px;
+}
+.text_div_2_arrow{
+    width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 10px solid rgb(217, 78, 78);
+	border-bottom: 10px solid transparent;
+    position: relative;
+    top: 52px;
+    right: -15px;
+}
+
+#collections_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 39px;
+    font-weight: lighter;
+    
+
+}
+#collections_subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.604);
+    margin-top: 7px;
+}
+.collections_text{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.collections_image{
+    width: 50%;
+    height: 330px;
+    margin-top: 30px;
+    float: left;
+}
+.image_breakfast{
+    width: 270px;
+    height: 320px;
+    float: left;
+    background-image: url("https://b.zmtcdn.com/data/collections/532af3ab24d29dbddcdcd16921ada06f_1535628640.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    border-radius: 5px;
+
+    
+}
+
+.image_biriyani{
+    width: 270px;
+    height: 320px;
+    float: left;
+    background-image: url("https://b.zmtcdn.com/data/collections/ecec46ffb5bc20bebe0857c47f630fc5_1535354925.jpg");
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 5px;
+    border-radius: 5px;
+
+}
+.image_text{
+    width: inherit;
+    height: 50%;
+    position: relative;
+    top: 160px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-image: linear-gradient(to top, black,transparent);
+    
+}
+.image_text h4{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+}
+.image_text h6{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
+    margin-top: 5px;
+   
+}
+.image_text_container{
+    width: 240px;
+    height: auto;
+    position: relative;
+    top: 100px;
+    left: 15px;
+    
+    
+}
+.localities{
+    width: 1100px;
+    height: 379px;
+    margin-bottom: 100px;
+
+}
+.localities_title{
+    width: 1100px;
+    height: 45px;
+    margin-bottom: 40px;
+   
+    
+}
+.localities_title p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: lighter;
+    
+}
+.localities_title span{
+    font-weight: bold;
+}
+.localities_options{
+    width: 1100px;
+    height: 296px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.location{
+    width: 366px;
+    height: 98px;
+    
+}
+.content{
+    width: 356px;
+    height: 79px;
+    background: white;
+    display: flex;
+    border-style: solid;
+    border-width: .5px;
+    border-color: rgb(198, 195, 195);
+    border-radius: 10px;
+    
+}
+
+.seemore_arrow{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 193px;
+    bottom: 16px;
+}
+.location_text{
+    width: 290px;
+    height: 53px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+    margin-top: 17px;
+
+}
+.location_text h3{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+.location_text h5{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+#see_more{
+    margin-top: 13px;
+    margin-left: 123px;
+    
+}
+.arrow{
+    width: 15px;
+    height: inherit;
+    margin-left: 17px;
+    display: flex;
+    align-items: center;
+    
+}
+#arrow{
+    width: 15px;
+    height: 15px;
+   
+}
+#seemore_arrow{
+    width: 15px;
+    height: 15px;
+}
+.body_two{
+    width: 100%;
+    height: 480px;
+    background: rgb(255, 251, 247);
+}
+.zomato_app{
+    width: 900px;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 270px;
+    margin-right: 270px;
+    float: left;
+
+}
+.app_image{
+    width: 50%;
+    height: 450px;
+    float: left;
+    
+
+}
+.app_form{
+    width: 50%;
+    height: 349px;
+    float: left;
+
+    margin-top: 20px;
+}
+.image_phone{
+    width: 410px;
+    height: 450px;
+    
+}
+.choice_div{
+    width: 225px;
+    height: 40px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.radio{
+    width: 100px;
+    height: 23px;
+}
+.input_field{
+    width: 450px;
+    height: 63px;
+
+}
+.app_form_text{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.app_form h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 44px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+.app_form p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 25px;
+    
+}
+.radio_label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.input_field{
+    width: 450px;
+    height: 63px;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.input_field section{
+    width: 292px;
+    height: 48px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(155, 153, 153);
+    border-width: .5px;
+    border-radius: 5px;
+}
+.input_field button{
+    width: 150px;
+    height: 48px;
+    background-color: rgb(241, 53, 90);
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+.input_field button:hover{
+    background-color: crimson;
+}
+.input_field input{
+    background: white;
+    border: none;
+    width: 85%;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+#para_2{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: rgb(89, 87, 87);
+
+}
+.download_platform{
+    width: 292px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.download_platform div{
+    width: 137px;
+    height: 40px;
+    
+} 
+.download_platform img{
+    width: 137px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.body_three{
+    width: 100%;
+    height: 491px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.body_three_content{
+    width: 1100px;
+    height: 390px;
+   
+}
+.body_three_content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: lighter;
+    color: black;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 20px;
+
+}
+.options{
+    width: 100%;
+    height: 68px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: .5px;
+    border-color: rgb(176, 173, 173);
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+
+}
+.options_text{
+    width: 900px;
+    height: 30px;
+}
+.options_arrow{
+    width: 30px;
+    height: 30px;
+}
+.options_text h5{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-top: 3px;
+}
+.options_arrow img{
+    width: 15px;
+    height: 15px;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.footer{
+    width: 100%;
+    height: 507px;
+    background: rgb(248, 248, 248);
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer_content{
+    width: 1100px;
+    height: 437px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_title{
+    width: inherit;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_subtitles{
+    width: inherit;
+    height: 238px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    width: inherit;
+    height: 38px;
+    
+}
+.footer_logo{
+    width: 132px;
+    height: inherit;
+    
+}
+.country_language{
+    width: 253px;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+.country{
+    width: 109px;
+    height: inherit;
+    display: flex;
+    border: solid rgba(0, 0, 0, 0.548) .5px;
+    border-radius: 5px;
+}
+.language{
+    width: 109px;
+    height: inherit;
+    display: flex;
+    border: solid .5px rgba(0, 0, 0, 0.444);
+    border-radius: 5px;
+}
+.globe{
+    width: 25px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.globe img{
+    width: 23px;
+    height: 23px;
+}
+.english{
+    width: 64px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.english h6{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.lang_arrow{
+    width: 15px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.lang_arrow img{
+    width: 13px;
+    height: 13px;
+}
+.footer_logo img{
+    width: inherit;
+    height: 28px;
+}
+.flag{
+    width: 25px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    
+}
+.flag img{
+    width: 22px;
+    height: 18px;
+    margin-left: 6px;
+}
+.india{
+    width: 65px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.india h6{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.country_arrow{
+    width: 15px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.country_arrow img{
+    width: 12px;
+    height: 12px;
+    margin-right:2px ;
+}
+.about_zomato{
+    width: 201px;
+    height: inherit;
+}
+.zomaverse{
+    width: 210px;
+    height: inherit;
+}
+.restaurants{
+    width: 275px;
+    height: inherit;
+}
+.learn{
+    width: 183px;
+    height: inherit;
+}
+.links{
+    width: 201px;
+    height: inherit;
+}
+.subtitles{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    
+}
+.subtitles_links{
+    width: inherit;
+    height: 205px;
+    margin-top: 12px;
+   
+
+}
+.app_icons{
+    width: inherit;
+    height: 25px;
+    margin-bottom: 30px;
+}
+.app_icons img{
+    width: 22px;
+    height: 22px;
+    
+}
+.stores{
+    width: 137px;
+    height: 40px;
+    
+    margin-bottom: 15px;
+
+}
+
+.stores img{
+    width: inherit;
+    height: inherit;
+    border-radius: 5px;
+
+}
+
+#facebook{
+    width: 24px;
+    height: 24px;
+}
+.link_text{
+    margin: 0;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: gray;
+}
+.copyright p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    color: gray;
+}
+
+
+   
